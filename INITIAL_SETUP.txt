@@ -1,0 +1,79 @@
+    1  python --version
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  sudo apt-get install python3
+    5  sudo apt-get upgrade python3
+    6  sudo apt install python3
+    7  python3 --version
+    8  cd ~
+    9  wget https://github.com/digitalocean/doctl/releases/download/v1.94.0/doctl-1.94.0-linux-amd64.tar.gz
+   10  ls
+   11  pwd
+   12  tar xf ~/doctl-1.94.0-linux-amd64.tar.gz
+   13  ls
+   14  cd doctl
+   15  sudo mv ~/doctl /usr/local/bin
+   16  doctl --version
+   17  doctl version
+   18  dotcl auth init --context mcloud
+   19  doctl auth init --context mcloud
+   20  doctl auth list
+   21  doctl auth switch --context mcloud
+   22  doctl account get 
+   23  doctl serverless install
+   24  pip
+   25  sudo apt-get install pip
+   26  pip
+   27  pip install python3
+   28  pip list
+   29  pip upgrade
+   30  pip update
+   31  pip
+   32  clear
+   33  exit
+   34  vi /etc/motd
+   35  sudo vi /etc/motd
+   36  exit
+   37  doctl version
+   38  doctl help
+   39  history|grep doctl
+   40  doctl account get
+   41  doctl auth list
+   42  sudo apt update
+   43  sudo apt install  software-properties-common gnupg2 curl
+   44  sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+   45  sudo apt install terraform
+   46  sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+   47  sudo apt install terraform
+   48  curl https://apt.releases.hashicorp.com/gpg | gpg --dearmor > hashicorp.gpg
+   49  sudo install -o root -g root -m 644 hashicorp.gpg /etc/apt/trusted.gpg.d/
+   50  sudo apt install terraform
+   51  sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+   52  sudo apt install terraform
+   53  ssh-keygen 
+   54  pwd
+   55  cat .ssh/id_rsa.pub 
+   56  doctl compute image list --public" to get list
+   57  doctl compute image list --public 
+   58  doctl compute image list --public |grep ubuntu
+   59  exit
+   60  sudo vi /etc/motd 
+   61  clear
+   62  ll
+   63  exit
+   64  ls
+   65  ll
+   66  terraform 
+   67  ll
+   68  doctl 
+   69  sudo vi /etc/motd 
+   70  ll
+   71  clear
+   72  ls
+   73  ll
+   74  clear
+   75  ls
+   76  history
+   77  doctl compute image list --public
+   78  ls
+   79  history > INITIAL_SETUP.txt

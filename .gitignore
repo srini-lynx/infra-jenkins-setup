@@ -1,0 +1,13 @@
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.config/
+.profile
+.ssh/
+.sudo_as_admin_successful
+.vbox_version
+.viminfo
+.wget-hsts
+doctl-1.94.0-linux-amd64.tar.gz
+hashicorp.gpg
