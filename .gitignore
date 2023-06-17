@@ -11,4 +11,4 @@
 .wget-hsts
 doctl-1.94.0-linux-amd64.tar.gz
 hashicorp.gpg
-/home/vagrant/Digital_Ocen/Jenkins/terraform.tfvars
+Digital_Ocen/Jenkins/terraform.tfvars
